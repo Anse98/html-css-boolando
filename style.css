@@ -55,6 +55,23 @@ header figure img {
   width: 150px;
 }
 
+/* FINE HEADER */
 
+/* MAIN */
+
+main .container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main li.col-4 {
+  margin-bottom: 30px;
+}
 
 
