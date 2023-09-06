@@ -1,6 +1,60 @@
+/* REGOLE GENERALI */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+ul, ol {
+  list-style: none;
+}
+
+.col-4 {
+  flex-basis:calc((100% / 12) * 4); 
+}
+
+.row {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* HEADER */
+header {
+  background-color: #FF6900;
+  color: whitesmoke;
+}
+
+header .container {
+  padding: 10px 0;
+}
+
+header .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .col-4 {
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header figure img {
+  width: 150px;
+}
+
+
+
 
