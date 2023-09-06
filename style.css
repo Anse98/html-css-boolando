@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 ul, ol {
   list-style: none;
 }
@@ -17,16 +21,15 @@ ul, ol {
   display: flex;
 }
 
-a {
+a{
   text-decoration: none;
-  color: whitesmoke;
 }
 
 img {
   width: 100%;
 }
 
-.etichetta {
+.label {
   position: absolute;
   bottom: 50px;
   padding:3px 10px;
@@ -50,7 +53,7 @@ img {
   background-color: #FF0D0B;
 }
 
-.prezzo-scontato {
+.reduced {
   text-decoration: line-through;
 }
 
@@ -72,6 +75,15 @@ img {
 header {
   background-color: #FF6900;
   color: whitesmoke;
+  font-weight:500;
+}
+
+header a {
+  color: whitesmoke;
+}
+
+a:hover {
+  font-size: 20px;
 }
 
 header .container {
@@ -109,6 +121,7 @@ main .container {
   max-width: 1200px;
   margin: auto;
   padding-top: 50px;
+  position: relative;
 }
 
 main ul {
@@ -124,4 +137,36 @@ main li.col-4 {
 main figure {
   position: relative;
 }
+
+main .card h4 {
+  font-weight:600;
+}
+
+.heart:hover {
+  font-size: 30px;
+  color: #FF0D0B;
+}
+
+main a {
+  color: black;
+}
+
+main .front-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+main .front-img:hover {
+  display: none;
+}
+
+
+
+
+
+/* FINE MAIN */
+
+
 
