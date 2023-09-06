@@ -73,7 +73,6 @@ img {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding-top: 50px;
 }
 
 a {
@@ -85,6 +84,10 @@ header {
   background-color: #FF6900;
   color: whitesmoke;
   font-weight:500;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 99;
 }
 
 a:hover {
@@ -118,6 +121,7 @@ header figure img {
 
 main .container {
   position: relative;
+  padding-top: 100px;
 }
 
 main .col-4 {
@@ -166,6 +170,10 @@ footer {
   color: white;
 }
 
+footer .container {
+  padding-top:30px ;
+}
+
  footer ul{
   gap: 10px;
   margin-top: 10px;
@@ -194,6 +202,7 @@ footer .section-1 {
 footer .section-2 {
   min-height: 150px;
 }
+/* FINE FOOTER */
 
 
 
