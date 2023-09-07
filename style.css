@@ -84,7 +84,8 @@ header {
   background-color: #FF6900;
   color: whitesmoke;
   font-weight:500;
-  position: fixed;
+  position: sticky;
+  top: 0;
   right: 0;
   left: 0;
   z-index: 99;
@@ -121,16 +122,16 @@ header figure img {
 
 main .container {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 main .col-4 {
-  flex-basis:calc((100% / 12) * 4 - 20px);
+  flex-basis:calc((100% / 12) * 4);
 }
 
 main li.col-4 {
   margin-bottom: 30px;
-  margin-right: 20px;
+  padding:0 10px;
 }
 
 main figure {
@@ -152,13 +153,11 @@ main a {
 
 main .front-img {
   position: absolute;
-  top: 0;
-  left: 0;
-  
+  inset: 0;
 }
 
 main .front-img:hover {
-  display: none;
+  opacity: 0;
 }
 /* FINE MAIN */
 
